@@ -42,7 +42,8 @@ Requires an Apple silicon Mac running macOS 14 Sonoma or later, with Xcode.
 ## Privacy
 
 The Companion talks to the devices you paired, directly, over your local network or your
-tailnet. There is no account and no relay. On its own, it connects out to check this
+tailnet. There is no account and no relay. To recognize the same project on two Macs, it
+sends those devices a fingerprint of each project's Git remote, never the remote itself. On its own, it connects out to check this
 repository for updates and, only if you turn on notifications away from your local network
 on your iPhone, to send each notification, encrypted, to the address your iPhone gave it. An
 agent you open talks to its own provider, with your account, as it does when you use it on
