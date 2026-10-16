@@ -10,7 +10,8 @@ CompilePilot builds, runs, and tests over SSH with nothing installed on the Mac.
 Companion adds what SSH cannot do:
 
 - **Coding agents.** Open Claude Code, Codex or opencode, whichever you have installed, on
-  the project you picked. The agent runs on your Mac in a terminal of its own, keeps working
+  the project you picked, or in any Git repository inside the folders you added to the
+  Companion. The agent runs on your Mac in a terminal of its own, keeps working
   when you leave the screen, and you answer its permission prompts from the phone. Several
   at once. Send Claude Code its next instruction from Siri or the Apple Watch when it has
   finished its turn, and see a one-line summary of what it said.
